@@ -58,7 +58,7 @@ Action Get Merged Pull Request is released under the [Apache License 2.0](./LICE
 <!-- badge links -->
 
 [actions-workflow-test]: https://github.com/juan-vg/action-get-merged-pull-request/actions?query=workflow%3ATest
-[actions-workflow-test-badge]: https://img.shields.io/github/workflow/status/juan-vg/action-get-merged-pull-request/Test?label=Test&style=for-the-badge&logo=github
+[actions-workflow-test-badge]: https://img.shields.io/github/actions/workflow/status/juan-vg/action-get-merged-pull-request/test.yml?branch=main
 
 [release]: https://github.com/juan-vg/action-get-merged-pull-request/releases
 [release-badge]: https://img.shields.io/github/v/release/juan-vg/action-get-merged-pull-request?style=for-the-badge&logo=github
