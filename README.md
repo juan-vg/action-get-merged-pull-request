@@ -1,4 +1,4 @@
-# Action Get Merged Pull Request
+# Action Get Merged Pull Request by Juan-VG
 
 [![actions-workflow-test][actions-workflow-test-badge]][actions-workflow-test]
 [![release][release-badge]][release]
@@ -9,6 +9,9 @@ This is a GitHub Action to get the pull request merged with the base branch.
 This action supports `push` events with the base branch (e.g., `master`).
 
 It would be more useful to use this with other GitHub Actions' outputs.
+
+> This project was forked from <https://github.com/mgoodness/action-get-merged-pull-request> project, originally created by [
+Actions Ecosystem](https://github.com/actions-ecosystem).
 
 ## Why this action?
 
@@ -28,6 +31,14 @@ For further details, see https://help.github.com/en/actions/reference/events-tha
 |----------------|-----------------|----------|----------|---------|
 | `github_token` | A GitHub token. | `string` | `true`   | `N/A`   |
 
+### Github Token Permissions
+
+This action requires the following permissions:
+
+```yaml
+pull-requests: read
+```
+
 ## Outputs
 
 |    NAME     |                                              DESCRIPTION                                               |   TYPE   |
@@ -46,11 +57,11 @@ Action Get Merged Pull Request is released under the [Apache License 2.0](./LICE
 
 <!-- badge links -->
 
-[actions-workflow-test]: https://github.com/actions-ecosystem/action-get-merged-pull-request/actions?query=workflow%3ATest
-[actions-workflow-test-badge]: https://img.shields.io/github/workflow/status/actions-ecosystem/action-get-merged-pull-request/Test?label=Test&style=for-the-badge&logo=github
+[actions-workflow-test]: https://github.com/juan-vg/action-get-merged-pull-request/actions?query=workflow%3ATest
+[actions-workflow-test-badge]: https://img.shields.io/github/workflow/status/juan-vg/action-get-merged-pull-request/Test?label=Test&style=for-the-badge&logo=github
 
-[release]: https://github.com/actions-ecosystem/action-get-merged-pull-request/releases
-[release-badge]: https://img.shields.io/github/v/release/actions-ecosystem/action-get-merged-pull-request?style=for-the-badge&logo=github
+[release]: https://github.com/juan-vg/action-get-merged-pull-request/releases
+[release-badge]: https://img.shields.io/github/v/release/juan-vg/action-get-merged-pull-request?style=for-the-badge&logo=github
 
 [license]: LICENSE
-[license-badge]: https://img.shields.io/github/license/actions-ecosystem/action-get-merged-pull-request?style=for-the-badge
+[license-badge]: https://img.shields.io/github/license/juan-vg/action-get-merged-pull-request?style=for-the-badge

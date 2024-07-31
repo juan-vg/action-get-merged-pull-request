@@ -13,12 +13,12 @@ jobs:
         with:
           show-progress: false
 
-      - uses: mgoodness/action-get-merged-pull-request@main
+      - uses: juan-vg/action-get-merged-pull-request@main
         id: get-merged-pull-request
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: mgoodness/action-release-label@main
+      - uses: juan-vg/action-release-label@main
         id: release-label
         if: ${{ steps.get-merged-pull-request.outputs.title != null }}
         with:
